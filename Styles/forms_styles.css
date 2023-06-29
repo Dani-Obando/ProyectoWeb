@@ -39,6 +39,13 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
+textarea[name="mensaje"]{
+    margin-bottom: 10%;
+    resize: none;
+
+
+}
+
 input[type="submit"] {
     background-color: #6f58f0;
     color: #fff;
@@ -86,6 +93,3 @@ a:hover {
 .boton-volver:hover {
     background-color: #475FA6;
 }
-
-
-
