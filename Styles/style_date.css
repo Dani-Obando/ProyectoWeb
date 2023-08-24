@@ -85,22 +85,22 @@ body {
   }
   
   .custom-dropdown-btn {
-    background-color: #008080; /* Cambiar a tu color preferido */
-    color: black; /* Color del texto */
+    background-color: #008080; 
+    color: black; 
   }
   
   .custom-dropdown-menu {
-    background-color: #cac6ae; /* Cambiar a tu color preferido */
-    color: black; /* Color del texto */
+    background-color: #cac6ae; 
+    color: black; 
   }
   .custom-btn {
-    background-color: #008080 !important; /* Cambiar a tu color preferido */
-    color: black !important; /* Color del texto */
+    background-color: #008080 !important; 
+    color: black !important; 
   }
   
   .custom-btn:hover {
-    background-color: whitesmoke !important; /* Cambiar a tu color preferido */
-    color: black !important; /* Color del texto */
+    background-color: whitesmoke !important; 
+    color: black !important; 
   }
   
   
