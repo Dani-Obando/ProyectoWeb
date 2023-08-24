@@ -71,7 +71,6 @@ color: white !important;
 
 .fondoCarrusel{
   background-color:#99957b;
-  filter: brightness(70%) !important
 }
 
 .carousel-item {
@@ -81,7 +80,7 @@ color: white !important;
   position: relative;
 }
 
-.carousel-item::before {
+.carouselInfo::before {
   content: "";
   position: absolute;
   top: 0;
@@ -214,7 +213,7 @@ width: 100%;
   border-color: black;
 }
 .custom-dropdown-btn {
-  background-color: #008080; 
+  background-color: #b0cccc; 
   color: black; 
 }
 
@@ -322,3 +321,113 @@ width: 100%;
   box-shadow: none;
   border:none;
 }
+
+.imagenesDemostrativas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: #008080;
+  color: white;
+  padding-bottom: 40px;
+}
+
+#mainFoto{
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.imgCarousel{
+  width: 120px;
+  height: 120px;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.imgCarousel:hover{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cac6ae;
+  margin: 2px; 
+}
+img{
+
+  cursor: pointer;
+}
+
+.ReservaBtn {
+  background-color: #008080;
+  border-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+.ReservaBtn:hover, .reseñaBtn:hover {
+  background-color: #0c1f33;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+.reseñas-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.reseñas-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reseña-box {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.perfil-icon {
+  font-size: 36px;
+  color: #008080;
+  margin-right: 20px;
+}
+
+.reseña-content {
+  flex: 1;
+}
+
+.reseña-comentario {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.reseña-calificacion {
+  font-size: 14px;
+  color: #888;
+}
+
+.fullStar {
+  color: rgb(0, 116, 131);
+}
+
+.reseñaBtn{
+    background-color: #008080;
+    border-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
